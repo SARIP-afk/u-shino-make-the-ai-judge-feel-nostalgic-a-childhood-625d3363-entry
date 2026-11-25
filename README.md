@@ -9,16 +9,18 @@ nostalgic childhood-memory sentence to `/output/entry.txt`.
 
 ## The line
 
-> When the power went out on stormy nights, my father lit one candle and told stories until I fell asleep on his lap, and I have never slept that soundly since.
+> Every Friday my grandfather counted coins from a chipped mug to buy me ice cream, and I never told him I liked the walk to the shop more than the ice cream itself.
 
-158 characters, 158 bytes, no trailing newline.
+163 characters, 163 bytes, no trailing newline.
 
-Why this line: it is grounded in a concrete place, time and sensation — a
-stormy night, one candle, a father's lap — with the small honest detail of
-falling asleep mid-story, and it ends on a warm ache that lingers ("I have
-never slept that soundly since"), the thing the judge brief weighs most.
-No greeting-card sentiment, no joke: a memory that sounds like it truly
-happened to someone.
+Why this line: it is grounded in the most concrete anchors of any candidate
+— a Friday ritual, coins counted from a chipped mug, ice cream, the walk to
+the shop — with the small honest detail of a child's unspoken secret ("I
+never told him"), and it ends on a twist that surprises instead of
+sentimentalising: the walk mattered more than the treat. The warm ache is
+quiet — a grandfather's care, and a thank-you never said — which is the
+thing the judge brief weighs most. No greeting-card sentiment, no joke: a
+memory that sounds like it truly happened to someone.
 
 ## Run
 

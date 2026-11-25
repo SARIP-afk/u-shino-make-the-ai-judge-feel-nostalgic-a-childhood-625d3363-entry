@@ -6,7 +6,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "When the power went out on stormy nights, my father lit one candle and told stories until I fell asleep on his lap, and I have never slept that soundly since.";
+  "Every Friday my grandfather counted coins from a chipped mug to buy me ice cream, and I never told him I liked the walk to the shop more than the ice cream itself.";
 
 // Gate mirror: the house gate accepts 1-280 characters of non-whitespace
 // text; the task brief caps it at 199. Fail loudly here rather than write a
