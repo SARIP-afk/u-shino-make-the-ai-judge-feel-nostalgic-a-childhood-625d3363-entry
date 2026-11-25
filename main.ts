@@ -2,7 +2,7 @@
 //
 // Deterministic, no network, no dependencies. The line is a fixed string:
 // the program writes exactly these bytes on every run.
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
@@ -17,4 +17,11 @@ if (LINE.length < 1 || LINE.length > 199 || !LINE.trim()) {
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "entry.txt"), LINE, "utf8");
+const outPath = join(outDir, "entry.txt");
+writeFileSync(outPath, LINE, "utf8");
+
+// Read back and confirm the file holds exactly the line: a silent short
+// write or encoding slip must fail the run, never reach the judge.
+if (readFileSync(outPath, "utf8") !== LINE) {
+  throw new Error("entry.txt read-back does not match the line");
+}
